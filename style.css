@@ -1,0 +1,81 @@
+.block {
+    border:  2px solid black;
+    position: relative;
+    height: 2000px;
+}
+
+.logo {
+    padding: 20px;
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.head {
+    display: flex;
+
+}
+
+.qidiruv {
+    flex-grow: 1;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.wrap {
+    display: flex;
+    gap: 1px;
+    position: sticky;
+    top: 0;
+} 
+
+.menu1 {
+    flex-grow: 1;
+    background-color: greenyellow;
+    padding: 16px;
+    text-align: center;
+    font-style: bold;
+
+}
+.menu2 {
+    flex-grow: 1;
+    background-color: greenyellow;
+    padding: 16px;
+    text-align: center;
+    font-style: bold;
+}
+.menu3 {
+    flex-grow: 1;
+    background-color: greenyellow;
+    padding: 16px;
+    text-align: center;
+    font-style: bold;
+}
+.menu4 {
+    flex-grow: 1;
+    background-color: greenyellow;
+    padding: 16px;
+    text-align: center;
+    font-style: bold;
+}
+
+.mal {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+.chat {
+    background-color: red;
+    position: absolute;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+}
